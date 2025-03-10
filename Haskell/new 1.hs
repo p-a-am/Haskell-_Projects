@@ -15,8 +15,6 @@ subtract_int_list x y z= repeat_list((get_zeroes_out(int_to_list((y!!(z-1)) - (x
   repeat_list:: [Int] -> Int -> [Int]
   repeat_list k s = (++) (repeat_list k s) (repeat_list k (s - 1))
   z = length(y)
-  w::[Int]
-  w = []
 
 
 
